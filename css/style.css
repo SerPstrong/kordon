@@ -79,7 +79,6 @@ body {
 @media (max-width: 768px) {
   .content {
     border-radius: 50%;
-    height: 300px;
     padding: 15px;
   }
   .head_p {
@@ -110,7 +109,6 @@ body {
 @media (max-width: 500px) {
   .content {
     border-radius: 50%;
-    height: 270px;
     padding: 15px;
   }
 
