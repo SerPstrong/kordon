@@ -1,11 +1,165 @@
 
-body{
+body {
+  font-family: 'Lato', sans-serif;
   background-color: #000;
   background-image: url(../img/background.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.header {
+.container {
+  text-align: center;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.content {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.37);
+  border-radius: 50%;
+  height: 426px;
+  padding: 15px;
+  margin: 250px 90px 0px 90px;
+}
+
+.content_back {
+  background-color: #fff;
+  width: 461px;
+  height: 400px;
+  opacity: 0.5;
+  position: absolute;
+  left: 26%;
+}
+
+.head_center {
+  margin: 100px auto 0 auto;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.37);
+  width: 161px;
+}
+
+.head_a {
+  color: #000;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.head_a:hover {
+  color: #084b00;
+}
+
+.head_p {
+  margin: 84px 0 0 0;
+  font-size: 30px;
+}
+
+.head_pa {
+  position: relative;
+}
+
+.img_block {
+  display: block;
+}
+
+.img_left-size {
+  width: 300px;
+  float: left;
+  transform: rotate(-15deg);
+  border: solid 1px #000;
+}
+
+.img_right-size {
+  width: 300px;
+  float: right;
+  transform: rotate(15deg);
+  border: solid 1px #000;
+}
+
+@media (max-width: 768px) {
+  .content {
+    border-radius: 50%;
+    height: 300px;
+    padding: 15px;
+  }
+  .head_p {
+    margin: 54px 0 0 0;
+    font-size: 16px;
+  }
+
+  .head_a {
+    font-size: 25px;
+  }
+  .img_left-size {
+    width: 200px;
+    float: none;
+    transform: rotate(-15deg);
+  }
+
+  .img_right-size {
+    width: 200px;
+    float: none;
+    transform: rotate(15deg);
+  }
+  .img_block {
+    display: block;
+    margin: 100px 50px 0 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .content {
+    border-radius: 50%;
+    height: 270px;
+    padding: 15px;
+  }
+
+  .head_p {
+    margin: 51px 0 0 0;
+    font-size: 16px;
+  }
+
+  .head_a {
+    font-size: 21px;
+  }
+  .img_left-size {
+    width: 150px;
+    float: none;
+    transform: rotate(-15deg);
+  }
+
+  .img_right-size {
+    width: 150px;
+    float: none;
+    transform: rotate(15deg);
+  }
+  .img_block {
+    display: block;
+    margin: 100px 50px 0 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .content {
+    margin: 66px 90px 0 90px;
+  }
+  .img_block {
+    margin: 100px;
+  }
+  .img_left-size {
+    float: none;
+    transform: rotate(-15deg);
+  }
+
+  .img_right-size {
+    float: none;
+    transform: rotate(15deg);
+  }
+  body {
+    background-size: auto;
+  }
+}
+
+@media (max-width: 1200px) {
 
 }
