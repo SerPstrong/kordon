@@ -144,6 +144,10 @@ a:hover {
   font-size: 25px;
 }
 
+.background_share {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .content {
     border-radius: 50%;
