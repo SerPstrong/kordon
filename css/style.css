@@ -135,6 +135,10 @@ a:hover {
   transition: 0.3s;
 }
 
+.google_maps {
+  margin: 100px 0;
+}
+
 @media (max-width: 768px) {
   .content {
     border-radius: 50%;
