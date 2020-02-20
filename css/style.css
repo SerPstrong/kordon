@@ -23,7 +23,7 @@ body::before {
   right: 0;
   top: 0;
   bottom: 0;
-  z-index: -1;
+  -z-index: -1;
   background: url(../img/background2.jpg) center / cover no-repeat;
   filter: blur(5px);
   transition: 0.3s;
@@ -49,8 +49,7 @@ body {
 .content {
   position: relative;
   background-color: rgba(255, 255, 255, 0.37);
-  border-radius: 50%;
-  height: 426px;
+  border-radius: 14%;
   padding: 15px;
   margin: 250px 90px 0 90px;
   z-index: 1;
@@ -70,25 +69,51 @@ body {
   text-transform: uppercase;
   background-color: rgba(255, 255, 255, 0.37);
   width: 161px;
+  border-radius: 15px;
 }
 
 .head_a {
-  color: #000;
+  color: #00134e;
   font-size: 40px;
   text-decoration: none;
+  display: inline-block;
+}
+
+.head_a-button {
+  padding: 10px;
+}
+
+.head_a-button_i i {
+  /*font-size: 33px;*/
+  /*color: #64a9dc;*/
+  color: #64a9dc00;
+  margin: 0 10px 0 0;
+  width: 30px;
+}
+
+.head_a-button_i:hover i {
+  font-size: 33px;
+  /*color: #64a9dc;*/
+  color: #64a9dc;
+  margin: 0 10px 0 0;
+
 }
 
 .head_a:hover {
-  color: #084b00;
+  color: #64a9dc;
+  /*padding: 10px;*/
+  /*border-radius: 15px;*/
 }
 
 .head_p {
-  margin: 84px 0 0 0;
+  margin: 16px 0 0 0;
   font-size: 30px;
+  font-weight: 900;
 }
 
 .head_pa {
   position: relative;
+  margin: 0;
 }
 
 .img_block {
@@ -149,12 +174,20 @@ a:hover {
   display: none;
 }
 
+
+/* Яндекс */
+.ya-share2__container_size_m .ya-share2__icon {
+  height: 116px !important;
+  width: 116px !important;
+  background-size: 116px 116px !important;
+}
+/*--------------------------*/
+
+
 @media (max-width: 768px) {
   .content {
-    border-radius: 50%;
     padding: 15px;
     margin: 250px 20px 0 20px;
-    height: 300px;
   }
 
   .head_p {
@@ -186,10 +219,8 @@ a:hover {
 
 @media (max-width: 500px) {
   .content {
-    border-radius: 50%;
     padding: 15px;
     margin: 250px 20px 0 20px;
-    height: 300px;
   }
 
   .head_p {
