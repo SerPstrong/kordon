@@ -76,10 +76,7 @@ body {
   font-size: 40px;
   text-decoration: none;
   display: inline-block;
-}
-
-.head_a-button {
-  padding: 10px;
+  text-transform: uppercase;
 }
 
 .head_a-button_i i {
@@ -181,6 +178,7 @@ a:hover {
   width: 50px !important;
   background-size: 50px 50px !important;
 }
+
 /*--------------------------*/
 
 
@@ -228,10 +226,6 @@ a:hover {
     font-size: 16px;
   }
 
-  .head_a {
-    font-size: 16px;
-  }
-
   .img_left-size {
     width: 150px;
     float: none;
@@ -260,32 +254,44 @@ a:hover {
   .head_a-button_i i {
     display: none;
   }
-}
 
-@media (max-width: 992px) {
-  .content {
-    margin: 250px 20px 0 20px;
+  .head_a-button, .head_a-button_i {
+    background-color: #0300b7;
+    border-radius: 5px;
+    color: #fff;
+    width: 100%;
+    margin: 0 0 20px 0;
+    font-size: 20px;
   }
 
-  .img_block {
-    margin: 100px;
+  .head_a-button :hover, .head_a-button_i:hover {
+    background-color: #1d1ad2;
   }
 
-  .img_left-size {
-    float: none;
-    transform: rotate(-15deg);
+  @media (max-width: 992px) {
+    .content {
+      margin: 250px 20px 0 20px;
+    }
+
+    .img_block {
+      margin: 100px;
+    }
+
+    .img_left-size {
+      float: none;
+      transform: rotate(-15deg);
+    }
+
+    .img_right-size {
+      float: none;
+      transform: rotate(15deg);
+    }
+
+    body {
+      background-size: auto;
+    }
   }
 
-  .img_right-size {
-    float: none;
-    transform: rotate(15deg);
+  @media (max-width: 1200px) {
+
   }
-
-  body {
-    background-size: auto;
-  }
-}
-
-@media (max-width: 1200px) {
-
-}
