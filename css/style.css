@@ -65,10 +65,9 @@ body {
 }
 
 .head_center {
-  margin: 100px auto 0 auto;
+  margin: 50px auto 0 auto;
   text-transform: uppercase;
   background-color: rgba(255, 255, 255, 0.37);
-  width: 161px;
   border-radius: 15px;
 }
 
@@ -118,6 +117,7 @@ body {
 
 .img_block {
   display: block;
+  margin: 50px 0 0 0;
 }
 
 .img_left-size {
@@ -177,9 +177,9 @@ a:hover {
 
 /* Яндекс */
 .ya-share2__container_size_m .ya-share2__icon {
-  height: 60px !important;
-  width: 60px !important;
-  background-size: 60px 60px !important;
+  height: 50px !important;
+  width: 50px !important;
+  background-size: 50px 50px !important;
 }
 /*--------------------------*/
 
@@ -255,6 +255,10 @@ a:hover {
 
   .img_right-size:hover {
     z-index: 6;
+  }
+
+  .head_a-button_i i {
+    display: none;
   }
 }
 
