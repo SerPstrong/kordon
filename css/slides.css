@@ -33,11 +33,13 @@
 }
 
 .text {
-  color: #1d1ad2;
-  font-size: 12px;
-  padding: 8px 12px;
   position: absolute;
-  top: 0;
+  top: 20px;
+  left: 20px;
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px #000;
+  display: none;
 }
 
 .dot {
@@ -52,7 +54,7 @@
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #64a9dc;
 }
 
 .fade {
@@ -60,6 +62,27 @@
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
+}
+
+.numbertext{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px #000;
+  display: none;
+}
+
+.slideshow-container_dot{
+  /*text-align: center;*/
+  /*margin: 10px;*/
+  position: inherit;
+  bottom: 30px;
+}
+
+.mySlides img {
+  border-radius: 15px;
 }
 
 @-webkit-keyframes fade {
