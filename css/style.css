@@ -34,7 +34,7 @@ body {
   background-color: rgba(255, 255, 255, 0.37);
   border-radius: 14%;
   padding: 15px;
-  margin: 250px 90px 0 90px;
+  margin: 50px 0 0 0;
   z-index: 1;
 }
 
@@ -95,46 +95,46 @@ body {
   margin: 0;
 }
 
-.img_block {
-  display: block;
-  margin: 50px 0 0 0;
-}
+/*.img_block {*/
+/*  display: block;*/
+/*  margin: 50px 0 0 0;*/
+/*}*/
 
-.img_left-size {
-  width: 300px;
-  left: 0;
-  transform: rotate(-15deg);
-  border: solid 1px #000;
-  transition: 0.3s;
-  position: absolute;
-  z-index: 5;
-}
+/*.img_left-size {*/
+/*  width: 300px;*/
+/*  left: 0;*/
+/*  transform: rotate(-15deg);*/
+/*  border: solid 1px #000;*/
+/*  transition: 0.3s;*/
+/*  position: absolute;*/
+/*  z-index: 5;*/
+/*}*/
 
-.img_right-size {
-  width: 300px;
-  right: 0;
-  transform: rotate(15deg);
-  border: solid 1px #000;
-  transition: 0.3s;
-  position: absolute;
-  z-index: 5;
-}
+/*.img_right-size {*/
+/*  width: 300px;*/
+/*  right: 0;*/
+/*  transform: rotate(15deg);*/
+/*  border: solid 1px #000;*/
+/*  transition: 0.3s;*/
+/*  position: absolute;*/
+/*  z-index: 5;*/
+/*}*/
 
-.img_left-size:hover {
-  width: 100%;
-  transform: rotate(0deg);
-  border: solid 1px #000;
-  transition: 0.3s;
-  z-index: 4;
-}
+/*.img_left-size:hover {*/
+/*  width: 100%;*/
+/*  transform: rotate(0deg);*/
+/*  border: solid 1px #000;*/
+/*  transition: 0.3s;*/
+/*  z-index: 4;*/
+/*}*/
 
-.img_right-size:hover {
-  width: 100%;
-  transform: rotate(0deg);
-  border: solid 1px #000;
-  transition: 0.3s;
-  z-index: 4;
-}
+/*.img_right-size:hover {*/
+/*  width: 100%;*/
+/*  transform: rotate(0deg);*/
+/*  border: solid 1px #000;*/
+/*  transition: 0.3s;*/
+/*  z-index: 4;*/
+/*}*/
 
 a:hover {
   transition: 0.3s;
@@ -168,7 +168,7 @@ a:hover {
 @media (max-width: 768px) {
   .content {
     padding: 15px;
-    margin: 250px 20px 0 20px;
+    margin: 50px 20px 0 20px;
   }
 
   .head_p {
@@ -180,28 +180,28 @@ a:hover {
     font-size: 25px;
   }
 
-  .img_left-size {
-    width: 200px;
-    float: none;
-    transform: rotate(-15deg);
-  }
+  /*.img_left-size {*/
+  /*  width: 200px;*/
+  /*  float: none;*/
+  /*  transform: rotate(-15deg);*/
+  /*}*/
 
-  .img_right-size {
-    width: 200px;
-    float: none;
-    transform: rotate(15deg);
-  }
+  /*.img_right-size {*/
+  /*  width: 200px;*/
+  /*  float: none;*/
+  /*  transform: rotate(15deg);*/
+  /*}*/
 
-  .img_block {
-    display: block;
-    margin: 100px 50px 0 50px;
-  }
+  /*.img_block {*/
+  /*  display: block;*/
+  /*  margin: 100px 50px 0 50px;*/
+  /*}*/
 }
 
 @media (max-width: 500px) {
   .content {
     padding: 15px;
-    margin: 250px 20px 0 20px;
+    margin: 50px 20px 0 20px;
   }
 
   .head_p {
@@ -209,30 +209,30 @@ a:hover {
     font-size: 16px;
   }
 
-  .img_left-size {
-    width: 150px;
-    float: none;
-    transform: rotate(-15deg);
-  }
+  /*.img_left-size {*/
+  /*  width: 150px;*/
+  /*  float: none;*/
+  /*  transform: rotate(-15deg);*/
+  /*}*/
 
-  .img_right-size {
-    width: 150px;
-    float: none;
-    transform: rotate(15deg);
-  }
+  /*.img_right-size {*/
+  /*  width: 150px;*/
+  /*  float: none;*/
+  /*  transform: rotate(15deg);*/
+  /*}*/
 
-  .img_block {
-    display: block;
-    margin: 100px 50px 0 50px;
-  }
+  /*.img_block {*/
+  /*  display: block;*/
+  /*  margin: 100px 50px 0 50px;*/
+  /*}*/
 
-  .img_left-size:hover {
-    z-index: 6;
-  }
+  /*.img_left-size:hover {*/
+  /*  z-index: 6;*/
+  /*}*/
 
-  .img_right-size:hover {
-    z-index: 6;
-  }
+  /*.img_right-size:hover {*/
+  /*  z-index: 6;*/
+  /*}*/
 
   .head_a-button_i i {
     display: none;
@@ -254,22 +254,22 @@ a:hover {
 
 @media (max-width: 992px) {
   .content {
-    margin: 250px 20px 0 20px;
+    margin: 50px 20px 0 20px;
   }
 
-  .img_block {
-    margin: 100px;
-  }
+  /*.img_block {*/
+  /*  margin: 100px;*/
+  /*}*/
 
-  .img_left-size {
-    float: none;
-    transform: rotate(-15deg);
-  }
+  /*.img_left-size {*/
+  /*  float: none;*/
+  /*  transform: rotate(-15deg);*/
+  /*}*/
 
-  .img_right-size {
-    float: none;
-    transform: rotate(15deg);
-  }
+  /*.img_right-size {*/
+  /*  float: none;*/
+  /*  transform: rotate(15deg);*/
+  /*}*/
 
   body {
     background-size: auto;
