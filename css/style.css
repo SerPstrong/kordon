@@ -85,7 +85,7 @@ body {
 }
 
 .head_p {
-  margin: 16px 0 0 0;
+  margin: 0 0 0 0;
   font-size: 30px;
   font-weight: 900;
 }
@@ -168,11 +168,11 @@ a:hover {
 @media (max-width: 768px) {
   .content {
     padding: 15px;
-    margin: 50px 20px 0 20px;
+    margin: 20px 20px 0 20px;
   }
 
   .head_p {
-    margin: 54px 0 0 0;
+    margin: 0 0 0 0;
     font-size: 16px;
   }
 
@@ -201,11 +201,11 @@ a:hover {
 @media (max-width: 500px) {
   .content {
     padding: 15px;
-    margin: 50px 20px 0 20px;
+    margin: 20px 20px 0 20px;
   }
 
   .head_p {
-    margin: 51px 0 0 0;
+    margin: 0 0 0 0;
     font-size: 16px;
   }
 
@@ -254,7 +254,7 @@ a:hover {
 
 @media (max-width: 992px) {
   .content {
-    margin: 50px 20px 0 20px;
+    margin: 20px 20px 0 20px;
   }
 
   /*.img_block {*/

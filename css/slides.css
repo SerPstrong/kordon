@@ -2,6 +2,7 @@
   max-width: 100%;
   position: relative;
   margin: auto;
+  margin: 20px auto auto auto;
 }
 
 .prev, .next {
