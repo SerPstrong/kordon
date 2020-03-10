@@ -1,4 +1,4 @@
-var slideIndex = 1;
+let slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
@@ -10,9 +10,9 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
+  let i;
+  const slides = document.getElementsByClassName("mySlides");
+  const dots = document.getElementsByClassName("dot");
 
   if (n > slides.length) {
     slideIndex = 1;
@@ -30,16 +30,24 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
 }
 
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {
-    slideIndex = 1;
-  }
-  slides[slideIndex - 1].style.display = "block";
-  setTimeout(showSlides, 3000);
+function plusSlidesTime() {
+ plusSlides(1);
 }
+
+setInterval(plusSlidesTime, 2000);
+
+
+// function showSlides() {
+//   var i;
+//   var slides = document.getElementsByClassName("mySlides");
+//   for (i = 0; i < slides.length; i++) {
+//     slides[i].style.display = "none";
+//   }
+//   slideIndex++;
+//   if (slideIndex > slides.length) {
+//     slideIndex = 1;
+//   }
+//   slides[slideIndex - 1].style.display = "block";
+//
+// }
+// setTimeout(showSlides, 3000);
