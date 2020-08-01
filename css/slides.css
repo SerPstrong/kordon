@@ -81,6 +81,11 @@
   bottom: 30px;
 }
 
+.mySlides{
+  max-height:495px;
+  overflow: hidden;
+}
+
 .mySlides img {
   border-radius: 15px;
 }

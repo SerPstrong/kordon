@@ -19,6 +19,8 @@
   <script src="https://kit.fontawesome.com/663a5f4eb9.js" crossorigin="anonymous"></script>
 
   <meta name="theme-color" content="#fafafa">
+
+  <script data-ad-client="ca-pub-6962634992803588" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 
 <body>
@@ -34,7 +36,7 @@
   <div class="container">
     <div class="container_margin">
       <h1 class="head_center">
-        Кордон
+        <a class="h1_logo" href="./">Кордон</a>
       </h1>
       <!--Slides-->
       <div class="slideshow-container">
@@ -50,7 +52,7 @@
         </div>
         <div class="mySlides fade">
           <div class="numbertext">1/3</div>
-          <img src="img/slides/bike.jpg" style="width: 100%" alt="">
+          <a href="https://segap.ru/kordon/kordontusnik2020/"><img src="img/slides/kt2020.jpg" style="width: 100%" alt=""></a>
           <div class="text">bike</div>
         </div>
         <a class="prev" onclick="plusSlides(-1)">&#10094</a>
@@ -62,9 +64,9 @@
           <span class="dot" onclick="currentSlide(3)"></span>
         </div>
       </div>
-
-
       <!--/slides-->
+
+      <a class="a_link" href="https://segap.ru/kordon/kordontusnik2020/">КордонТусник2020(видео)</a>
 
 <!--      <div class=" img_block">-->
 <!--        <div class="img_left">-->
